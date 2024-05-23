@@ -7,7 +7,7 @@ from datetime import datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-SEND_REPORT_EVERY = 5 # in seconds, 60 means 1 minute and so on
+SEND_REPORT_EVERY = 10 # in seconds, 60 means 1 minute and so on
 EMAIL_ADDRESS = "change to your email address"
 EMAIL_PASSWORD = "change to your password"
 
